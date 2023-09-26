@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   stdout.write("Hi, please choose a number: ");
 
-  int number = int.parse(stdin.readLineSync().toString());
+  int number = int.parse(stdin.readLineSync()!);
 
   if(number % 2 ==0) {
    print("Chosen number is even");
@@ -12,3 +12,4 @@ void main() {
     print("Chosen number is odd");
   }
 }
+
