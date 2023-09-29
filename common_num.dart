@@ -3,15 +3,32 @@ void main() {
 
   List<int> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
-  Set<int> c = {};
+  //Set<int> c = {};
 
-  for (var i in a) {
-    for (var j in b) {
-      if (i == j) {
-        c.add(i);
-      }
-    }
-  }
-  print(c.toList());
+  // for (var i in a) {
+  //   for (var j in b) {
+  //     if (i == j) {
+  //       c.add(i);
+  //     }
+  //   }
+  // }
+  // print(c.toList());
+
+
+//forloop
+
+
+  // for (var i = 0; i < a.length; i++) {
+  //   for (var j = 0; j < a.length; j++) {
+  //     if (a[i] == a[j]) {
+  //       c.add(a[i]);
+  //     }
+  //   }
+  // }
+  // print(c.toList());
+
+
+   print(Set.from(a).intersection(Set.from(b)));
+
 
 }
