@@ -64,6 +64,20 @@
 //   print("$multiply");
 // }
 
+// void main() {
+//   String love = "i hate you";
+//   List<String> words = love.split(' ');
+
+//   if (words.isEmpty) {
+//     print("");
+//   } else {
+//     String camelCase = words[0].toLowerCase() +
+//         words.sublist(1).map((word) =>
+//             word[0].toUpperCase() + word.substring(1).toLowerCase()).join('');
+//     print(camelCase);
+//   }
+// }
+
 // void main(List<String> args) {
 //   stdout.write("Enter first floating numbers: ");
 //   double num1 = double.parse(stdin.readLineSync()!);
@@ -117,7 +131,9 @@
 //   }
 // }
 
+// void main(List<String> args) {
+//   List<int> a = [1, 2, 3, 4, 5, 6, 7];
+//   print(a.reversed);
+// }
 
-void main(List<String> args) {
-  List<>
-}
+
