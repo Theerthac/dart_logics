@@ -19,3 +19,5 @@ void checkPrime(int number) {
       ? print("The chosen number is a prime")
       : print("The chosen number is not a prime");
 }
+
+

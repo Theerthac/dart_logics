@@ -64,19 +64,19 @@
 //   print("$multiply");
 // }
 
-// void main() {
-//   String love = "i hate you";
-//   List<String> words = love.split(' ');
+void main() {
+  String a = "i am Theertha";
+  List<String> words = a.split(' ');
 
-//   if (words.isEmpty) {
-//     print("");
-//   } else {
-//     String camelCase = words[0].toLowerCase() +
-//         words.sublist(1).map((word) =>
-//             word[0].toUpperCase() + word.substring(1).toLowerCase()).join('');
-//     print(camelCase);
-//   }
-// }
+  if (words.isEmpty) {
+    print("");
+  } else {
+    String camelCase = words[0].toLowerCase() +
+        words.sublist(1).map((word) =>
+            word[0].toUpperCase() + word.substring(1).toLowerCase()).join('');
+    print(camelCase);
+  }
+}
 
 // void main(List<String> args) {
 //   stdout.write("Enter first floating numbers: ");
