@@ -64,19 +64,22 @@
 //   print("$multiply");
 // }
 
-void main() {
-  String a = "i am Theertha";
-  List<String> words = a.split(' ');
+// void main() {
+//   String a = "i am Theertha";
+//   List<String> words = a.split(' ');
 
-  if (words.isEmpty) {
-    print("");
-  } else {
-    String camelCase = words[0].toLowerCase() +
-        words.sublist(1).map((word) =>
-            word[0].toUpperCase() + word.substring(1).toLowerCase()).join('');
-    print(camelCase);
-  }
-}
+//   if (words.isEmpty) {
+//     print("");
+//   } else {
+//     String camelCase = words[0].toLowerCase() +
+//         words
+//             .sublist(1)
+//             .map((word) =>
+//                 word[0].toUpperCase() + word.substring(1).toLowerCase())
+//             .join('');
+//     print(camelCase);
+//   }
+// }
 
 // void main(List<String> args) {
 //   stdout.write("Enter first floating numbers: ");
@@ -134,6 +137,19 @@ void main() {
 // void main(List<String> args) {
 //   List<int> a = [1, 2, 3, 4, 5, 6, 7];
 //   print(a.reversed);
+// }
+
+// void main(List<String> args) {
+//   String a = "theertha ";
+//   String b = "c ";
+//   print('$b $a');
+// }
+
+// void main(List<String> args) {
+//   String a = "theertha";
+//   for (var i = 0; i < 100; i++) {
+//     print(a);
+//   }
 // }
 
 
