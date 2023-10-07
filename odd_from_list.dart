@@ -1,10 +1,9 @@
 void main(List<String> args) {
-  List<int> a = [1, 2, 4, 8, 9, 7, 3];
-  List oddList = [];
-
+  List<int> a = [1, -5,-3,2, 4, 8, 9, 7, 3,-1,-9,-11];
+ 
   for (var i = 0; i < a.length; i++) {
-    if (a[i] % 2 == 1) {
-       oddList.addAll(a);
+    if (a[i] % 2 == 1 && a[i]>0) {
+      
         print(a[i]);
     }
 
@@ -14,11 +13,12 @@ void main(List<String> args) {
 
 // void main(List<String> args) {
 //   List<int> a = [1, 2, 4, 8, 9, 7, 3];
-//   List evenList = [];
+//  
 //   for (var i = 0; i < a.length; i++) {
 //     if (a[i] % 2 == 0) {
-//       evenList.addAll(a);
+//    
 //       print(a[i]);
 //     }
 //   }
 // }
+
