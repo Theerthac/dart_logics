@@ -152,3 +152,78 @@
 //   }
 // }
 
+// void main(List<String> args) {
+//   List<String> days = [];
+//   days.add("Sunday");
+//   days.add("Monday");
+//   days.add("Tuesday");
+//   days.add("Wednesday");
+//   days.add("Thuresday");
+//   days.add("Friday");
+//   days.add("Saturday");
+
+//   for (var i = 0; i < days.length; i++) {
+//     print(days[i]);
+//   }
+// }
+
+// void main() {
+//   Map<String, dynamic> personInfo = {
+//     'name': 'John Doe',
+//     'address': '123 Main Street',
+//     'age': 30,
+//     'country': 'USA',
+//   };
+
+//   // Update the country name
+//   personInfo['country'] = 'Canada';
+
+//   // Print all keys and values
+//    for (var key in personInfo.keys) {
+//     var value = personInfo[key];
+//     print('$key: $value');
+//   }
+
+// }
+
+// void main(List<String> args) {
+//   for (var i = 0; i <= 5; i++) {
+//     for (var j = 0; j < i; j++) {
+//     print('*');
+
+//     }
+//    print(' ');
+//   }
+// }
+
+// void main(List<String> args) {
+//   String a = "World";
+//   List<String> b = [];
+//   for (var i = 4; i >= 0; i--) {
+//     print(a[i]);
+
+//   }
+// }
+
+
+
+
+void main(List<String> args) {
+  String str =
+      "javascript is the world's most popular programming language. it is the programming language of the web. and it is easy to learn.";
+
+  List<String> words = str.split('. ');
+  String ff = ' ';
+
+  for (var i = 0; i < words.length; i++) {
+    String word = words[i];
+    String F = word[0].toUpperCase();
+
+    
+    String h = word.substring(1);
+    String output = F + h;
+    ff += output + ' ';
+  }
+
+  print(ff);
+}
