@@ -187,16 +187,6 @@
 // }
 
 // void main(List<String> args) {
-//   for (var i = 0; i <= 5; i++) {
-//     for (var j = 0; j < i; j++) {
-//     print('*');
-
-//     }
-//    print(' ');
-//   }
-// }
-
-// void main(List<String> args) {
 //   String a = "World";
 //   List<String> b = [];
 //   for (var i = 4; i >= 0; i--) {
@@ -206,24 +196,3 @@
 // }
 
 
-
-
-void main(List<String> args) {
-  String str =
-      "javascript is the world's most popular programming language. it is the programming language of the web. and it is easy to learn.";
-
-  List<String> words = str.split('. ');
-  String ff = ' ';
-
-  for (var i = 0; i < words.length; i++) {
-    String word = words[i];
-    String F = word[0].toUpperCase();
-
-    
-    String h = word.substring(1);
-    String output = F + h;
-    ff += output + ' ';
-  }
-
-  print(ff);
-}
